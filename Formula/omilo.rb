@@ -1,28 +1,28 @@
 class Omilo < Formula
   desc "Install, run and talk to your Omilo gateway from the terminal"
   homepage "https://github.com/dedekrnwan/omilo-os"
-  version "0.5.3"
+  version "0.6.0"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/dedekrnwan/omilo-os/releases/download/v0.5.3/omilo_darwin_arm64.tar.gz"
-      sha256 "066a5f3c747a67524a50a5592cad4ab82b1544338a7089cddca1b20fa26a536c"
+      url "https://github.com/dedekrnwan/omilo-os/releases/download/v0.6.0/omilo_darwin_arm64.tar.gz"
+      sha256 "1c1bc689659bbbd5cd54283934cd9768047663c2c22a3a1524be0f7c1d0ea73e"
     end
     on_intel do
-      url "https://github.com/dedekrnwan/omilo-os/releases/download/v0.5.3/omilo_darwin_amd64.tar.gz"
-      sha256 "be5900627292645f40c1f4d595a2e9ca9f82e4c223163c83c2d3b9e2d28fec44"
+      url "https://github.com/dedekrnwan/omilo-os/releases/download/v0.6.0/omilo_darwin_amd64.tar.gz"
+      sha256 "3098627c24558d30b1ddbb06459e1af9bce84cce07798b96d6013de5b7780474"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dedekrnwan/omilo-os/releases/download/v0.5.3/omilo_linux_arm64.tar.gz"
-      sha256 "af918af65fdbaf7d3c0c269e352c02e0eddde52a179b5482d5e2d5b2365af0e4"
+      url "https://github.com/dedekrnwan/omilo-os/releases/download/v0.6.0/omilo_linux_arm64.tar.gz"
+      sha256 "7636e6827608a3fc8898cc5ecaa169e927dee2cfbca9852d9a8b7cdf6d613857"
     end
     on_intel do
-      url "https://github.com/dedekrnwan/omilo-os/releases/download/v0.5.3/omilo_linux_amd64.tar.gz"
-      sha256 "69091a767b957d5f15b4292f8dbcdfa6282526ecc134b5c17db0f935ff383822"
+      url "https://github.com/dedekrnwan/omilo-os/releases/download/v0.6.0/omilo_linux_amd64.tar.gz"
+      sha256 "e17f1aca8534134dca5f7f497fcff45f316a8e97534846b35fa23804b121c345"
     end
   end
 
